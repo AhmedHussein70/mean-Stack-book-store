@@ -1,13 +1,15 @@
 {
- "name": "backend",
+  "name": "backend",
   "version": "2.0",
   "main": "index.js",
   "scripts": {
     "start:dev": "nodemon app.js",
-    "start:prod": "set NODE_ENV=production&& node app.js",
-    "build":"npm run build",
+    "start:prod": "set NODE_ENV=production && node app.js",
+    "build": "npm run build"
   },
-  "engines":{"node" : " 20.10.0" },
+  "engines": {
+    "node": "20.10.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
